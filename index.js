@@ -22,10 +22,10 @@ export const HighLightView = styled.View`
   top: ${props => (props.wrapperHeight - props.itemHeight) / 2};
   height: ${props => props.itemHeight};
   width: ${props => props.highlightWidth};
-  border-top-color: red;
-  border-bottom-color: ${props => props.highlightColor};
-  border-top-width: ${props => props.highlightBorderWidth}px;
-  border-bottom-width: ${props => props.highlightBorderWidth}px;
+  border-left-color: ${props => props.highlightColor};
+  border-right-color: ${props => props.highlightColor};
+  border-left-width: ${props => props.highlightBorderWidth}px;
+  border-right-width: ${props => props.highlightBorderWidth}px;
 `;
 export const SelectedItem = styled.View`
   height: 30px;
