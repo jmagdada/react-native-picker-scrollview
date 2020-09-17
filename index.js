@@ -21,8 +21,7 @@ export const HighLightView = styled.View`
   position: absolute;
   top: ${props => (props.wrapperHeight - props.itemHeight) / 2};
   height: ${props => props.itemHeight};
-  width: ${props => props.highlightWidth};
-  border-color: red;
+  width: 100%;
   border-left-color: ${props => props.highlightColor};
   border-right-color: ${props => props.highlightColor};
   border-left-width: ${props => props.highlightBorderWidth}px;
